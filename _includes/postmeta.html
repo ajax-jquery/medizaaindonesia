@@ -1,0 +1,47 @@
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt| strip_html }}" />
+    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+    <meta name="author" content="{{ site.name }}" />
+
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v20.8 (Yoast SEO v20.8) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+	<meta name="description" content="Medizaa - {% if page.description %}{{ page.description }}{% endif %}" class="yoast-seo-meta-tag" />
+	<link rel="canonical" href="{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}" class="yoast-seo-meta-tag" />
+	<meta property="og:locale" content="id_ID" class="yoast-seo-meta-tag" />
+	<meta property="og:type" content="article" class="yoast-seo-meta-tag" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" class="yoast-seo-meta-tag" />
+	<meta property="og:description" content="Medizaa - {% if page.description %}{{ page.description }}{% endif %}" class="yoast-seo-meta-tag" />
+	<meta property="og:url" content="{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}" class="yoast-seo-meta-tag" />
+	<meta property="og:site_name" content="{{ site.name }}" class="yoast-seo-meta-tag" />
+	<meta property="article:publisher" content="https://www.facebook.com/medizaa" class="yoast-seo-meta-tag" />
+	<meta property="article:published_time" content="{% if page.date %}{{ page.date }}{% endif %}" class="yoast-seo-meta-tag" />
+	<meta property="article:modified_time" content="{% if page.date %}{{ page.date }}{% endif %}" class="yoast-seo-meta-tag" />
+	<meta property="og:image" content="{% if page.image %}{{ page.image }}{% endif %}" />
+	<meta property="og:image:width" content="696" class="yoast-seo-meta-tag" />
+	<meta property="og:image:height" content="399" class="yoast-seo-meta-tag" />
+	<meta property="og:image:type" content="image/png" class="yoast-seo-meta-tag" />
+	<meta name="author" content="Medizaa Indonesia" class="yoast-seo-meta-tag" />
+	<meta name="twitter:card" content="summary_large_image" class="yoast-seo-meta-tag" />
+	<meta name="twitter:creator" content="@{{ site.name }}_id" class="yoast-seo-meta-tag" />
+	<meta name="twitter:site" content="@{{ site.name }}_id" class="yoast-seo-meta-tag" />
+	<meta name="twitter:label1" content="Ditulis oleh" class="yoast-seo-meta-tag" />
+	<meta name="twitter:data1" content="Medizaa Indonesia" class="yoast-seo-meta-tag" />
+	<meta name="twitter:label2" content="Estimasi waktu membaca" class="yoast-seo-meta-tag" />
+	<meta name="twitter:data2" content="2 menit" class="yoast-seo-meta-tag" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#article","isPartOf":{"@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}"},"author":{"name":"Medizaa Indonesia","@id":"{{ site.url }}/#/schema/person/221ded95d41dbedbbfb5f27e21c62e4a"},"headline":"{% if page.title %}{{ page.title }}{% endif %}","datePublished":"{% if page.date %}{{ page.date }}{% endif %}","dateModified":"{% if page.date %}{{ page.date }}{% endif %}","mainEntityOfPage":{"@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}"},"wordCount":279,"commentCount":0,"publisher":{"@id":"{{ site.url }}/#organization"},"image":{"@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#primaryimage"},"thumbnailUrl":"{{ site.url }}/wp-content/uploads/2023/06/ILUSTRASI-{{ site.name }}-KE-35-BAGAIMANA-MENJADI-ULAMA-PEREMPUAN-1.png","keywords":["fiqh","ilmu","kajian","masa","Nabi Muhammad SAW","Pengalaman","perempuan"],"articleSection":["Hikmah","Pernak-pernik"],"inLanguage":"id","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#respond"]}]},{"@type":"WebPage","@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}","url":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}","name":"{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}","isPartOf":{"@id":"{{ site.url }}/#website"},"primaryImageOfPage":{"@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#primaryimage"},"image":{"@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#primaryimage"},"thumbnailUrl":"{{ site.url }}/wp-content/uploads/2023/06/ILUSTRASI-{{ site.name }}-KE-35-BAGAIMANA-MENJADI-ULAMA-PEREMPUAN-1.png","datePublished":"{% if page.date %}{{ page.date }}{% endif %}","dateModified":"{% if page.date %}{{ page.date }}{% endif %}","description":"Medizaa - {% if page.description %}{{ page.description }}{% endif %}","breadcrumb":{"@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#breadcrumb"},"inLanguage":"id","potentialAction":[{"@type":"ReadAction","target":["{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}"]}]},{"@type":"ImageObject","inLanguage":"id","@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#primaryimage","url":"{{ site.url }}/wp-content/uploads/2023/06/ILUSTRASI-{{ site.name }}-KE-35-BAGAIMANA-MENJADI-ULAMA-PEREMPUAN-1.png","contentUrl":"{{ site.url }}/wp-content/uploads/2023/06/ILUSTRASI-{{ site.name }}-KE-35-BAGAIMANA-MENJADI-ULAMA-PEREMPUAN-1.png","width":696,"height":399,"caption":"Pengalaman Perempuan"},{"@type":"BreadcrumbList","@id":"{{ site.url }}{% if page.permalink %}{{ page.permalink }}{% endif %}#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"{% if page.title %}{{ page.title }}{% endif %}"}]},{"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":"{{ site.name }}","description":"Portal Islam dan relasi yang membahagiakan","publisher":{"@id":"{{ site.url }}/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"{{ site.url }}/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"id"},{"@type":"Organization","@id":"{{ site.url }}/#organization","name":"{{ site.name }}.id","url":"{{ site.url }}/","logo":{"@type":"ImageObject","inLanguage":"id","@id":"{{ site.url }}/#/schema/logo/image/","url":"{{ site.url }}/wp-content/uploads/2020/07/{{ site.name }}-id-1.png","contentUrl":"{{ site.url }}/wp-content/uploads/2020/07/{{ site.name }}-id-1.png","width":281,"height":78,"caption":"{{ site.name }}.id"},"image":{"@id":"{{ site.url }}/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/medizaa","https://twitter.com/{{ site.name }}_id"]},{"@type":"Person","@id":"{{ site.url }}/#/schema/person/221ded95d41dbedbbfb5f27e21c62e4a","name":"Medizaa Indonesia","image":{"@type":"ImageObject","inLanguage":"id","@id":"{{ site.url }}/#/schema/person/image/","url":"{{ site.url }}/wp-content/litespeed/avatar/23494c9101089ad44ae88ce9d2f56aac.jpg?ver=1687933935","contentUrl":"{{ site.url }}/wp-content/litespeed/avatar/23494c9101089ad44ae88ce9d2f56aac.jpg?ver=1687933935","caption":"Medizaa Indonesia"}}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
