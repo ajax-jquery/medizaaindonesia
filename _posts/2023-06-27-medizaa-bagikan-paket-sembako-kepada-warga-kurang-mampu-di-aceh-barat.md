@@ -3,7 +3,14 @@ layout: post
 author: Medizaa
 title: Menyambut Idul Adha, Medizaa Bagikan Paket Sembako kepada Warga Kurang Mampu di Aceh Barat
 description: Ratusan warga kurang mampu atau fakir miskin di Gampong Blang Luah dan Cot Rambong, di Kecamatan Woyla Barat, Selaѕa menerima paket sembako
-keyword: Medizaa Peduli, bantuan anak yatim, medizaa aceh barat, bantuan medizaa, sembako, idul adha,aceh barat
+keyword:
+- Medizaa Peduli
+- bantuan anak yatim
+- medizaa aceh barat
+- bantuan medizaa
+- sembako
+- idul adha
+- aceh barat
 permalink: /medizaa-bagikan-paket-sembako-kepada-warga-kurang-mampu-di-aceh-barat/
 image: https://asset-2.tstatic.net/aceh/foto/bank/images/Medizaa.jpg
 ---
