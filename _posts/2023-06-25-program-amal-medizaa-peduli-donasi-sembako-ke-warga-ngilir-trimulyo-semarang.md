@@ -3,7 +3,10 @@ layout: post
 author: Medizaa
 title: Program Amal Medizaa Peduli Donasi Sembako ke Warga Ngilir Trimulyo Semarang
 description: Baru-baru ini Medizaa Indonesia telah berhasil menjalankan program amal di Kelurahan Trimulyo, Genuk, Semarang.  “Terima kaѕih Medizaa,” ujar Sari (34 tahun) dengan ѕumringah....
-keyword: Donasi Medizaa, Program Medizaa, Medizaa Beramal
+keyword: 
+- Donasi Medizaa
+- Program Medizaa
+- Medizaa Beramal
 permalink: /program-amal-medizaa-peduli-donasi-sembako-ke-warga-ngilir-trimulyo-semarang/
 image: https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/06/25/WhatsApp-Image-2023-06-25-at-162631-2507899830.jpeg
 ---
