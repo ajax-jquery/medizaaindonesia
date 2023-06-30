@@ -27,29 +27,4 @@ Jika ingin mengetahui lebih jauh tentang **Medizaa**, silahkan kunjungi website 
 
 Jadi untuk Anda yang ingin daftar dan berpenghasilan di **Medizaa**, bisa simak langkah-langkah berikut ini:
 
-1\. Silahkan menuju ke halaman registrasi ([**KLIK DISINI**](/daftar/))  
-2\. Masukan **Nomor HP** yang memiliki **whatsapp** yang aktif  
-3\. Klik **Send Code** untuk menerima kode **verifikasi** Nomor HP  
-4\. **Salin kode** verifikasi yang didapatkan melalui WhatsApp kedalam form Code  
-5\. Masukkan **Kata Sandi** dengan menggunakan **format huruf dan angka.**  
-6\. **Konfirmasi** kata sandi Anda  
-7\. Pada form kode, silahkan dibiarkan saja atau isi dengan **238841**. Kode tersebut berfungsi supaya Anda memiliki perantara untuk join ke grup Official **Medizaa** dan akun Anda di anggap **Valid**. **<span style="color: red;">NB: JANGAN merubah kode 238841 jika tidak ingin akun Anda INVALID.</span>**  
-8\. Klik **Mendaftar/Registrasi**
 
-Setelah semua langkah di atas sudah dilakukan, maka dengan begitu Anda sudah berhasil membuat akun **Medizaa** Anda.
-
-**B. Cara Login ke Akun Medizaa**
-
-Selanjutnya Anda Tinggal Login dengan cara:
-
-1\. Klik **icon orang**  
-2\. Pada form _Registration Number_/Nomor Pendaftaran silahkan isi dengan **nomor HP** yang sudah di daftarkan sebelumnya **tanpa di awali 62 atau 0.**  
-3\. Masukkan **kata sandi** yang sudah Anda buat sebelumnya.
-
-Dengan langkah sebelumnya, Anda sudah berhasil login ke akun **Medizaa** Anda.
-
-**C. Validasi Akun Medizaa**
-
-Untuk selanjut Anda tinggal menghubungi Admin untuk supaya di arahkan masuk ke dalam grup Official **Medizaa**. Ini bertujuan untuk supaya akun Anda dianggap **valid** dan bisa melakukan kegiatan di **Medizaa**. Caranya silahkan klik [**Whatsapp ADMIN**](https://m.sophiainstitute.id/dt9E)**.** dan lengkapi pesan yang tersedia. dengan menghubungi admin **Medizaa,** Anda juga akan di arahkan untuk mulai berpenghasilan. Mudah bukan?
-
-Semoga dengan adanya investasi **Medizaa** di Indonesia dapat memperbaiki perekonomian masyarakat Indonesia dengan media bisnis onlinenya yang saat ini sudah banyak di kenal oleh sebagian masyarakat Indonesia.
