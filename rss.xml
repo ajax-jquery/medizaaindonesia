@@ -39,9 +39,15 @@ layout: null
 	<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
 	<guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
 	<comments>{{ post.url | prepend: site.baseurl | prepend: site.url }}#respond</comments>
-	<dc:creator><![CDATA[{{ site.name }}]]></dc:creator>
-        <description><![CDATA[{{ post.description | xml_escape }}]]></description>
-	<content:encoded><![CDATA[ { post.content | xml_escape }} ]]></content:encoded>   
+	<dc:creator><![CDATA[
+		{{ site.name }}
+		]]></dc:creator>
+        <description><![CDATA[
+		{{ post.description | xml_escape }}
+		]]></description>
+	<content:encoded><![CDATA[
+		{{ post.content | xml_escape }}
+		]]></content:encoded>   
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 </item>
     {% endfor %}
