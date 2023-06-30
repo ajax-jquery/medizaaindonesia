@@ -26,5 +26,3 @@ Jika ingin mengetahui lebih jauh tentang **Medizaa**, silahkan kunjungi website 
 **A. Cara Mendaftar Medizaa**
 
 Jadi untuk Anda yang ingin daftar dan berpenghasilan di **Medizaa**, bisa simak langkah-langkah berikut ini:
-
-
