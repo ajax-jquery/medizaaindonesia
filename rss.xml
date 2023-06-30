@@ -13,7 +13,7 @@ layout: null
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	>
   <channel>
-   <title>Medizaa Indonesia Official</title>
+   <title>{{ site.name }} - Website Resmi Milik Medizaa International Equipment Limited yang Bercabang di Indoneia</title>
 	<atom:link href="{{ "/rss.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
 	<link>{{ site.url }}{{ site.baseurl }}</link>
 	<description>{{ site.description | xml_escape }}</description>
