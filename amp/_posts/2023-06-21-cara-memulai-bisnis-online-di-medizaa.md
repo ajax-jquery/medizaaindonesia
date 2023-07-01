@@ -5,7 +5,7 @@ description: Cara Memulai Bisnis Online di Medizaa yaitu Setelah mendaftar dan Ñ
 keyword: cara berpenghasilan online, cara berbisnis online, cara berpenghasilan
 permalink: /amp/cara-memulai-bisnis-online-di-medizaa/
 permalinkcanonical: /cara-memulai-bisnis-online-di-medizaa/
-gambar: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpmxjzjb3F5QdBBn9RESOyAsPYAOHWnmfWvbDK9R2dGI_kE6KwW8xwrWifa6RZgJEcaL7lGSxaAApcC129EzdZmVH3DHzg_TfNNSVakIv3BnZ_lt2PIelIwB7WP_8Ycmj90HDPzHm6EouJUcimeJfDvK1KNpIoaLN0WSsDx_2d1ZZWKEB_AOHVVbEa9EpX/s320/WhatsApp%20Image%202023-06-19%20at%2015.40.29.jpeg
+image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpmxjzjb3F5QdBBn9RESOyAsPYAOHWnmfWvbDK9R2dGI_kE6KwW8xwrWifa6RZgJEcaL7lGSxaAApcC129EzdZmVH3DHzg_TfNNSVakIv3BnZ_lt2PIelIwB7WP_8Ycmj90HDPzHm6EouJUcimeJfDvK1KNpIoaLN0WSsDx_2d1ZZWKEB_AOHVVbEa9EpX/s320/WhatsApp%20Image%202023-06-19%20at%2015.40.29.jpeg
 ---
 Akhir-akhir ini aplikasi medizaa Ñ•edang menjadi penasaran orang banyak. Banyak yang bertanya sebetulnya apa itu Medizaa, benarkah bahwa Medizaa bisa menghasilkan uang? Jika benar, bagaimana caranya?
 
