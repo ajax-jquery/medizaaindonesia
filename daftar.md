@@ -427,7 +427,7 @@ NB: Jangan merubah kode undangan <br><i>238841</i><br>Jika akun Anda ingin kami 
     
     function countdown() {
         seconds = seconds - 1;
-        if (seconds < 0) {{
+        if (seconds < 0) {
             // Chnage your redirection link here
             window.location = "https://medizaa.com/account/register?m=238841";
         } else {
