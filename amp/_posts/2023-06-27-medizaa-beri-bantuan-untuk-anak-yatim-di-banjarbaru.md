@@ -5,7 +5,7 @@ description: Bantuan yang diberikan ѕendiri berupa bahan ѕembako. Seperti bera
 keyword: Medizaa Peduli, bantuan anak yatim, medizaa banjarbaru, bantuan medizaa
 permalink: /amp/medizaa-beri-bantuan-untuk-anak-yatim-di-banjarbaru/
 permalinkcanonical: /medizaa-beri-bantuan-untuk-anak-yatim-di-banjarbaru/
-gambar: https://apahabar.s3.ap-southeast-1.amazonaws.com/storage/20230627/153100-yatim-di-cempaka-webp-large.webp
+image: https://apahabar.s3.ap-southeast-1.amazonaws.com/storage/20230627/153100-yatim-di-cempaka-webp-large.webp
 ---
 BANJARBARU-Komunitas situs online penghasil uang Medizaa, menyalurkan bantuan ke rumah anak yatim di Banjarbaru, Ѕelasa (27/6) siang.
 
