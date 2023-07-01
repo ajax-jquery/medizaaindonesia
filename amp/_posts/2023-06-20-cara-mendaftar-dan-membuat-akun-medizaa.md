@@ -5,7 +5,7 @@ description: Jadi untuk Anda yang ingin daftar dan berpenghasilan di Medizaa, bi
 keyword: cara daftar medizaa, cara buat akun medizaa, daftar medizaa, registrasi medizaa
 permalink: /amp/cara-mendaftar-dan-membuat-akun-medizaa/
 permalinkcanonical: /cara-mendaftar-dan-membuat-akun-medizaa/
-gambar: https://medizaaindonesia.biz.id/images/jj.jpg
+image: https://medizaaindonesia.biz.id/images/jj.jpg
 ---
 Kita semua tahu bahwa kebutuhan pokok semakin mahal, bawa uang 100.000 buat belanja aja rasanya sudah _ngepas_ banget. Belum ditambah lagi kebutuhan anak, suami/istri, pulsa, _healing_ dan lain-lain. besar sekali kan ya?
 
