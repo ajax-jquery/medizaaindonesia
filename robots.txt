@@ -1,6 +1,7 @@
 User-agent: *
+Allow: /
 Disallow:
 
-Sitemap: {{ site.url }}/feed.xml
-Sitemap: {{ site.url }}/rss.xml
-Sitemap: {{ site.url }}/sitemaps.xml
+Sitemap: https://medizaaindonesia.biz.id/sitemaps.xml
+Sitemap: https://medizaaindonesia.biz.id/feed.xml
+Sitemap: https://medizaaindonesia.biz.id/rss.xml
