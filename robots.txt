@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow:
+Disallow: 
 
-Sitemap: https://medizaaindonesia.biz.id/sitemaps.xml
-Sitemap: https://medizaaindonesia.biz.id/feed.xml
-Sitemap: https://medizaaindonesia.biz.id/rss.xml
+Sitemap: https://medizaaindonesia.biz.id/sitemap.xml
