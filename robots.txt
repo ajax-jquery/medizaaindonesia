@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+Sitemap: {{ site.url }}/feed.xml
+Sitemap: {{ site.url }}/rss.xml
+Sitemap: {{ site.url }}/sitemaps.xml
