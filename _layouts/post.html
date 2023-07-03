@@ -445,7 +445,7 @@ $('.send_form').click(whatsappchat);
 function whatsappchat() { 
 /* Pengaturan Whatsapp */ 
 var walink = 'https://wa.me/', 
- phone = '6281312345678', // No Whatsapp Kalian
+ phone = '{{ site.WA }}', // No Whatsapp Kalian
  walink2 = 'Halo saya ingin join Medizaa, berikut keterangan berikut:'; // Pesan Pembuka
  
 
@@ -459,7 +459,7 @@ var wendy_whatsapp = walink + phone + '?text=' + walink2 + '%0A%0A' +
  '*DATA SAYA* %0A'+
  '*Nama* : *' + input_nama + '*%0A' + 
  '*No Hp* : *' + input_email + '*%0A' +
- 'saya dari website *Medizaa Indonesia Official*, tolong bimbing saya untuk join Medizaa' 
+ 'tolong bimbing saya untuk join Medizaa' 
  
 /* Buka Jendela Whatsapp  */ 
 window.open(wendy_whatsapp,'_blank');
