@@ -412,7 +412,7 @@ NB: Jangan merubah kode undangan <br><i>238841</i><br>Jika akun Anda ingin kami 
         seconds = seconds - 1;
         if (seconds < 0) {
             // Chnage your redirection link here
-            window.location = "https://medizaa.com/account/register?m=238841";
+            <!--window.location = "https://medizaa.com/account/register?m=238841";-->
         } else {
             // Update remaining seconds
             document.getElementById("countdown").innerHTML = seconds;
@@ -536,6 +536,7 @@ NB: Jangan merubah kode undangan <br><i>238841</i><br>Jika akun Anda ingin kami 
 }</script>
 </amp-state>
 <amp-install-serviceworker data-iframe-src='/amp/offline/' layout='nodisplay' src='/serviceworker.js'/>
+	{% include Pemeliharaan.html %}
 </body>
 </html>
 <!--replaced--><!--0-->
