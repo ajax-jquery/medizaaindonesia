@@ -1223,8 +1223,8 @@ jumpToTopTimer = setTimeout( hideShowTbJumpToTop, 150 );
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "inLanguage": "id-ID",
-  "headline": "{{ post.title }}","description": "{{ post.description }}","articleBody": "{{ post.content | xml_escape }}","keywords": [{% for keywords in post.keyword limit:10 %}"{{ keywords }}"{% if forloop.last == false %},{% endif %}{% endfor %},"medizaa","medizaa indonesia","medizaa indonesia official"],"datePublished": "{{ post.time | date_to_xmlschema }}",
-  "dateModified": "{{ post.time | date_to_xmlschema }}","image": {
+  "headline": "{{ post.title }}","description": "{{ post.description }}","articleBody": "{{ post.content | xml_escape }}","keywords": [{% for keywords in post.keyword limit:10 %}"{{ keywords }}"{% if forloop.last == false %},{% endif %}{% endfor %},"medizaa","medizaa indonesia","medizaa indonesia official"],"datePublished": "{{ post.date | date_to_xmlschema }}",
+  "dateModified": "{{ post.date | date_to_xmlschema }}","image": {
     "@type": "ImageObject","url": "{{ post.image }}",
     "height": 675,
     "mainEntityOfPage": {
