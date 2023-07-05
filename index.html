@@ -36,58 +36,6 @@ layout : null
  <script type="application/ld+json"> {"@context":"https://schema.org", "@graph":[ {"@type":"Organization", "@id":"https://medizaaindonesia.biz.id/#organization", "name":"Medizaa Indonesia Official", "url":"https://medizaaindonesia.biz.id/","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":4.8,"bestRating":5,"ratingCount":979098,"reviewCount":979098},"author":{"@type":"Person","name":"Medizaa"}},"address": {"@type": "PostalAddress", "addressLocality": "Jakarta, Jakarta Barat, Indonesia", "streetAddress": "Jalan Yos Sudarso No.5, Jakarta, Jakarta Barat Pos 91511" }, "email": "info@medizaaindonesia.biz.id", "telephone": "+62{{ site.WA }}", "sameAs":["https://wa.me/62{{ site.WA }}","mailto:info@medizaaindonesia.biz.id"], "logo":{"@type":"ImageObject", "@id":"https://medizaaindonesia.biz.id/#logo", "url":"https://medizaaindonesia.biz.id/android-icon-192x192.png", "width":192, "height":192, "caption":"Medizaa Indonesia Official"}, "image":{"@id":"https://medizaaindonesia.biz.id/#logo"}}, {"@type":"WebSite", "@id":"https://medizaaindonesia.biz.id/#website", "url":"https://medizaaindonesia.biz.id/", "name":"Medizaa Indonesia Official | Website Resmi Milik Medizaa International Equipment Limited yang Bercabang di Indoneia", "description":"Website resmi milik Medizaa yang bercabang di Indonesia untuk memperkenalkan perusahaan Medizaa di Nusantara serta mengajak seluruh masyarakat Indonesia untuk mulai berpenghasilan bersama Medizaa agar meningkatkan ekonomi masyarakat.", "publisher":{"@id":"https://medizaaindonesia.biz.id/#organization"}, "potentialAction":{"@type":"SearchAction", "target":"https://medizaaindonesia.biz.id/?s={search_term_string}", "query-input":"required name=search_term_string"}}, {"@type":"WebPage", "@id":"https://medizaaindonesia.biz.id/#webpage", "url":"https://medizaaindonesia.biz.id/", "inLanguage":"id-ID", "name":"Medizaa Indonesia Official | Website Resmi Milik Medizaa International Equipment Limited yang Bercabang di Indoneia", "isPartOf":{"@id":"https://medizaaindonesia.biz.id/#website"}, "about":{"@id":"https://medizaaindonesia.biz.id/#organization"}, "description":"Website resmi milik Medizaa yang bercabang di Indonesia untuk memperkenalkan perusahaan Medizaa di Nusantara serta mengajak seluruh masyarakat Indonesia untuk mulai berpenghasilan bersama Medizaa agar meningkatkan ekonomi masyarakat."}]} </script>
  <!-- Schema navigasi-->
 <script type="application/ld+json"> {"@context":"http://schema.org", "@type":"ItemList", "itemListElement": [ {"@type": "SiteNavigationElement", "position": 1, "name": "About", "description": "Peruѕahaan ini didirikan di Inggriѕ, Inggriѕ pada tahun 2006. Nama aѕli : CLOUD ЅHOPPING INTELLIGENT PROMOTION LTD, berganti nama menjadi Medizaa International Equipment Limited pada 16-01-2023, terutama bergerak dalam pembuatan peralatan dan persediaan medis dan gigi.", "url":"https://medizaaindonesia.biz.id/#About" }, {"@type": "SiteNavigationElement", "position": 2, "name": "Bisnis", "description": "Anda Ѕebagai Karyawan, Driver Ojek Online, Wiraѕwaѕta, Pegawai Kantoran, Maupun Ѕebagai Ibu Rumah Tangga, Anda Dapat Mengerjakan Bisnis Ini Dan Mudah Dilakukan.", "url":"https://medizaaindonesia.biz.id/#Bisnis" }, {"@type": "SiteNavigationElement", "position": 3, "name": "Panduan", "description": "Jadi untuk Anda yang ingin daftar dan berpenghasilan di Medizaa, bisa simak panduan berikut 1. Silahkan menuju ke halaman registrasi (KLIK DISINI) 2. Masukan Nomor HP yang memiliki whatsapp yang aktif", "url":"https://medizaaindonesia.biz.id/#Panduan" }, {"@type": "SiteNavigationElement", "position": 4, "name": "Testimoni", "description": "berikut ini adalah sebagian kecil dari Testimoni para member Medizaa", "url":"https://medizaaindonesia.biz.id/#Testimoni" }, {"@type": "SiteNavigationElement", "position": 5, "name": "Medizaa Berbagi", "description": "Medizaa Berbagi adalah program kemanusiaan yang dilakukan oleh Medizaa di wilayang Indonesia", "url":"https://medizaaindonesia.biz.id/#MedizaaPeduli" } ] }</script> 
- <!-- Blog Posting -->
- <script type="application/ld+json">
-{
-    "@context": "https://schema.org/",
-    "@type": "Blog",
-    "@id": "{{ site.url }}/",
-    "mainEntityOfPage": "{{ site.url }}",
-    "name": "{{ site.name }}",
-    "description": "{{ site.description }}",
-    "keywords":["medizaa","medizaa indonesia","medizaa indonesia official","investasi aman","cara investasi","bisnis online","bisnis yang menjanjikan","bisnis masa depan"],
-    "publisher": {
-        "@type": "Organization",
-        "@id": "{{ site.url }}",
-        "name": "{{ site.name }}",
-        "logo": {
-            "@type": "ImageObject",
-            "@id": "{{ site.avatar }}",
-            "url": "{{ site.avatar }}",
-            "width": "192",
-            "height": "192"
-        }
-    },
-    "blogPost": [{% for post in site.posts limit:10 %}
-        {
-            "@type": "BlogPosting",
-            "@id": "{{ site.url }}{{ post.permalink }}#BlogPosting",
-            "mainEntityOfPage": "{{ site.url }}{{ post.permalink }}",
-            "headline": "{{ post.title }}",
-            "name": "{{ post.title }}",
-            "description": "{{ post.description }}",
-            "datePublished": "{{ post.date | date_to_xmlschema }}",
-            "dateModified": "{{ post.date | date_to_xmlschema }}",
-	    "articleBody": "{{ post.content | xml_escape }}",
-            "author": {
-                "@type": "Person",
-                "@id": "{{ site.url }}/#Person",
-                "name": "Medizaa",
-              "url":"{{ site.url }}"
-            },
-            "image": {
-                "@type": "ImageObject",
-                "@id": "{{ post.image }}",
-                "url": "{{ post.image }}",
-                "height": "360",
-                "width": "480"
-            },
-            "url": "{{ site.url }}{{ post.permalink }}",
-            "keywords": [{% for keywords in post.keyword limit:10 %}"{{ keywords }}"{% if forloop.last == false %},{% endif %}{% endfor %}]
-        }{% if forloop.last == false %},{% endif %}{% endfor %}
-    ]
-}
-</script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://idmedizaaindonesiabizid.wordpress.com/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/WP/wp-includes/wlwmanifest.xml" />
 <link rel='shortlink' href='https://ajax-jquery.github.io/mediza/' />
