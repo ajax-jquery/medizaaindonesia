@@ -1230,7 +1230,7 @@ jumpToTopTimer = setTimeout( hideShowTbJumpToTop, 150 );
 },
 "headline": "{{ post.title }}",
 "description": "{{ post.description }}",
-"keywords":[{% for keywords in page.keyword limit:10 %}"{{ keywords }}"{% if forloop.last == false %},{% endif %}{% endfor %},"medizaa","medizaa indonesia","medizaa indonesia official","investasi aman","cara investasi","bisnis online","bisnis yang menjanjikan","bisnis masa depan"],
+"keywords":[{% for keywords in post.keyword limit:10 %}"{{ keywords }}"{% if forloop.last == false %},{% endif %}{% endfor %},"medizaa","medizaa indonesia","medizaa indonesia official","investasi aman","cara investasi","bisnis online","bisnis yang menjanjikan","bisnis masa depan"],
 "articleBody": "{{ post.content | xml_escape }}",
 "datePublished": "{{ post.date | date_to_xmlschema }}",
 "dateModified": "{{ post.date | date_to_xmlschema }}",
