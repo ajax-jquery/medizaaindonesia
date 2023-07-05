@@ -1219,34 +1219,45 @@ jumpToTopTimer = setTimeout( hideShowTbJumpToTop, 150 );
 
 
 <ul class="wp-block-rss">
-{% for post in site.posts limit:10 %}<li class='wp-block-rss__item'><div class='wp-block-rss__item-title'><a href='{{ post.url | prepend: site.baseurl | prepend: site.url }}'>{{ post.title}}</a></div><article class="CreativeWorkSeries blog-post hentry index-post"><script type="application/ld+json" class="yoast-schema-graph"> { "@context": "https://schema.org", "@type": "CreativeWorkSeries", "url": "{{ site.url }}{% if post.permalink %}{{ post.permalink }}{% endif %}", "name": "{% if post.title %}{{ post.title }} {% endif %}", "alternateName": "{% if post.title %}{{ post.title }} – {% endif %}Medizaa Indonesia Official", "description": " {% if post.description %}{{ post.description }}{% endif %}", "inLanguage": "id", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "0", "ratingCount": "279098", "reviewCount": "2790100" }, "author": {"@type": "Person", "name": "Medizaa"}, "publisher": {"@type": "Organization", "name": "Medizaa Indonesia Official"} } }</script><script type='application/ld+json'>{
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "inLanguage": "id-ID",
-  "headline": "{{ post.title }}","description": "{{ post.description }}","articleBody": "{{ post.content | xml_escape }}","keywords": [{% for keywords in post.keyword limit:10 %}"{{ keywords }}"{% if forloop.last == false %},{% endif %}{% endfor %},"medizaa","medizaa indonesia","medizaa indonesia official"],"datePublished": "{{ post.date | date_to_xmlschema }}",
-  "dateModified": "{{ post.date | date_to_xmlschema }}","image": {
-    "@type": "ImageObject","url": "{{ post.image }}",
-    "height": 675,
-    "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ site.url }}{{ post.permalink }}",
-    "name": "{{ post.title }}"
-  },
-    "width": 1200},"publisher": {
-    "@type": "Organization",
-    "name": "{{ site.name }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.avatar }}",
-      "width": 192,
-      "height": 192
-    }
-  },"author": {
-    "@type": "Person",
-    "name": "{{ site.name }}",
-    "url": "{{ site.url }}"
-  }
-}</script>
+{% for post in site.posts limit:10 %}<li class='wp-block-rss__item'><div class='wp-block-rss__item-title'><a href='{{ post.url | prepend: site.baseurl | prepend: site.url }}'>{{ post.title}}</a></div><article class="CreativeWorkSeries blog-post hentry index-post"><script type="application/ld+json" class="yoast-schema-graph"> { "@context": "https://schema.org", "@type": "CreativeWorkSeries", "url": "{{ site.url }}{% if post.permalink %}{{ post.permalink }}{% endif %}", "name": "{% if post.title %}{{ post.title }} {% endif %}", "alternateName": "{% if post.title %}{{ post.title }} – {% endif %}Medizaa Indonesia Official", "description": " {% if post.description %}{{ post.description }}{% endif %}", "inLanguage": "id", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "0", "ratingCount": "279098", "reviewCount": "2790100" }, "author": {"@type": "Person", "name": "Medizaa"}, "publisher": {"@type": "Organization", "name": "Medizaa Indonesia Official"} } }</script>
+<script type='application/ld+json'>
+{
+"@context": "http://schema.org",
+"@type": "BlogPosting",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "{{ post.url }}"
+},
+"headline": "{{ post.title }}",
+"description": "{{ post.description }}",
+"keywords":["medizaa","medizaa indonesia","medizaa indonesia official","investasi aman","cara investasi","bisnis online","bisnis yang menjanjikan","bisnis masa depan"],
+"articleBody": "{{ post.content | xml_escape }}",
+"datePublished": "{{ post.date | date_to_xmlschema }}",
+"dateModified": "{{ post.date | date_to_xmlschema }}",
+"image": {
+"@type": "ImageObject",
+"url": "{{ post.image }}",
+"height": 3192,
+"width": 480
+},
+"publisher": {
+"@type": "Organization",
+"name": "Blogger",
+"logo": {
+"@type": "ImageObject",
+"url": "{{ site.avatar }}",
+"width": 192,
+"height": 192
+}
+},
+"author": {
+"@type": "Person",
+"name": "{{ site.name }}",
+"url": "{{ site.url }}",
+"image": "{{ site.avatar }}"
+}
+}
+</script>
 </article></li>{% endfor %}</ul></div>
 
 <footer class="wp-block-template-part">
