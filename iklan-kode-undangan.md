@@ -24,7 +24,7 @@ image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV4xL5N1Oxq1i5
 .PesanIklan-form-wa{position:fixed;display:none;top:0;left:0;right:0;bottom:0;background:rgba(255,255,255,0.69);z-index:999}.form-container{width:calc(100% - 20px);max-width:500px;background:#fff;box-shadow:0 10px 35px 2px rgba(61,61,61,.3);padding:30px;box-sizing:border-box;border-radius:10px;margin:2% auto;overflow:hidden}.PesanIklan-form-wa.aktif{display:block}.harganya{font-size:10px!important;color:#103178!important;font-weight:bold!important;}
 .PesanIklan-form-header{background:linear-gradient(to right, #103178,#0152ff);color:#fff;font-weight:700;padding:15px 20px;border-radius:10px;margin:0 0 30px}
 span.input-title{border-left:4px solid  #103178;padding:0 15px;font-size:.9rem;display:block}.PesanIklan-form-wa #your-data{display:grid;grid-template-columns:49% 49%;grid-gap:10px;margin:10px 0 20px}
-.PesanIklan-form-header a.form-close svg{fill:#fff;width:35px;height:35px;margin-top:-5px;float:right}
+.PesanIklan-form-header a.tutup svg{fill:#fff;width:35px;height:35px;margin-top:-5px;float:right}
 a.PesanIklan-btn-wa.send_form{background:linear-gradient(to right, #103178,#0152ff);color:#fff;font-size:15px;font-weight:bold;text-align:center;text-decoration:none;padding:10px 10px 10px 25px;width:100px;margin:15px 50px 0 0;float:left;border-radius:5px;}
 .PesanIklan-btn-wa{background:linear-gradient(to right, #103178,#0152ff);font-size:15px;font-weight:700;color: #fff;display:inline-flex;align-items:center;margin:15px 15px 15px 0;padding:15px 25px;border-radius:7px;margin:15px;text-decoration:none;left:50%!important}
 .PesanIklan-btn-wa:hover{opacity:.8;color:#fff}
@@ -40,11 +40,11 @@ label,.PesanIklan-input-field input:valid~label,.PesanIklan-input-field textarea
 </style>
 
 <div style='text-align:center'>
-<a class="PesanIklan-btn-wa show-form" href="javascript:void" title="Beli Sekarang"><svg viewBox='0 0 24 24'><path d='M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z'/><line x1='12' x2='12' y1='2' y2='16'/></svg>Beli Sekarang</a></div>
+<a class="PesanIklan-btn-wa buka" href="javascript:void" title="Beli Sekarang"><svg viewBox='0 0 24 24'><path d='M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z'/><line x1='12' x2='12' y1='2' y2='16'/></svg>Beli Sekarang</a></div>
 <div id='nama_produk'>Iklan Kode Undangan</div>
 <div class='PesanIklan-form-wa'>
 <div class='form-container'>
-<div class='PesanIklan-form-header'><span class='form-title'>Checkout Form Whatsapp</span><a class='form-close' href='javascript:void' title='Close'><svg viewBox='0 0 24 24'><path d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z'/></svg></a></div>
+<div class='PesanIklan-form-header'><span class='form-title'>Checkout Form Whatsapp</span><a class='tutup' href='javascript:void' title='Close'><svg viewBox='0 0 24 24'><path d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z'/></svg></a></div>
 <span class='input-title'>Data Anda</span>
 <div id='your-data'>
 <div class='PesanIklan-input-field'><input class='validate' id='wa_name' name='nama' type='text'/><label>Nama Anda</label></div>
@@ -59,9 +59,9 @@ label,.PesanIklan-input-field input:valid~label,.PesanIklan-input-field textarea
 //<![CDATA[
 // Formulir whatsapp by PesanIklan code
 // Tombol Buka Tutup
-$(".form-close").click(function(){
+$(".tutup").click(function(){
   $(".PesanIklan-form-wa").fadeOut("fast")}
-);$(".show-form").click(function(){
+);$(".buka").click(function(){
   $(".PesanIklan-form-wa").fadeIn("slow")});
  
 // validasi Untuk Kolom Wajib Isi
