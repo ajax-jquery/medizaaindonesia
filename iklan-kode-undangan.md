@@ -153,7 +153,7 @@ var PesanIklan_whatsapp = walink + phone + '?text=' + walink2 + '%0A%0A' +
     '*Kode Undangan* : ' + input_email + '%0A' +
     '*Wa untuk calon pendaftar saya* : ' + input_namaBlog + '%0A' +
     '*No Akun Medizaa* : ' + input_urlBlog + '%0A'+
-    '*Estimasi Waktu Iklan* : ' + input_jam + '%0A'+
+    '*Estimasi Waktu Iklan* : ' + input_jam + ' Jam%0A'+
     '*Harga yang akan saya bayar* : ' + input_harga + '%0A';
  
 /* Buka Jendela Whatsapp  */ 
