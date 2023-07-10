@@ -1,45 +1,38 @@
-name: Ruby Gem
+name: Gem Tasks
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - master
+      - "*-stable"
+      - "*-staging"
 
 jobs:
-  build:
-    name: Build + Publish
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-
+  gem:
+    # if: "github.repository_owner == 'jekyll' && startsWith(github.event.commits[0].message, 'Release :gem:')"
+    name: "Build Gem (Ruby ${{ matrix.ruby_version }})"
+    runs-on: "ubuntu-latest"
+    strategy:
+      fail-fast: true
+      matrix:
+        ruby_version:
+          - 2.7
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.6.x
-
-    - name: Publish to GPR
-      run: |
-        mkdir -p $HOME/.gem
-        touch $HOME/.gem/credentials
-        chmod 0600 $HOME/.gem/credentials
-        printf -- "---\n:github: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
-        gem build *.gemspec
-        gem push --KEY github --host https://rubygems.pkg.github.com/${OWNER} *.gem
-      env:
-        GEM_HOST_API_KEY: "Bearer ${{secrets.GITHUB_TOKEN}}"
-        OWNER: ${{ github.repository_owner }}
-
-    - name: Publish to RubyGems
-      run: |
-        mkdir -p $HOME/.gem
-        touch $HOME/.gem/credentials
-        chmod 0600 $HOME/.gem/credentials
-        printf -- "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
-        gem build *.gemspec
-        gem push *.gem
-      env:
-        GEM_HOST_API_KEY: "${{secrets.RUBYGEMS_AUTH_TOKEN}}"
+      - uses: actions/checkout@v2
+      - name: "Set up Ruby ${{ matrix.ruby_version }}"
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby_version }}
+          bundler-cache: true
+      - name: Extract Jekyll Version
+        id: jekyll-meta
+        run: echo "::set-output name=version::$(bundle exec ruby -e 'require "jekyll"; puts Jekyll::VERSION')"
+        shell: bash
+      - name: "Build Gem (Jekyll ${{ steps.jekyll-meta.outputs.version }})"
+        run: gem build jekyll.gemspec
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: "jekyll-${{ steps.jekyll-meta.outputs.version }}"
+          path: "jekyll-${{ steps.jekyll-meta.outputs.version }}.gem"
+          retention-days: 5
