@@ -72,6 +72,7 @@ group :jekyll_optional_dependencies do
   gem "jekyll-gist"
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
+  gem 'jekyll-timeago', '~> 0.15.0'
   gem "jekyll-json-feed"
   gem "kramdown-syntax-coderay"
   gem "matrix"
