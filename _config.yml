@@ -74,6 +74,7 @@ gems:
   - jekyll-json-feed
   - jekyll-mentions
   - jekyll-redirect-from
+  - jekyll-timeago
   - jekyll-seo-tag
   - jemoji
   
